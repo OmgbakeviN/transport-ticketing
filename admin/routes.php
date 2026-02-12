@@ -5,7 +5,7 @@ require_once $ROOT . "/lib/auth.php";
 require_once $ROOT . "/lib/db.php";
 
 require_login();
-require_role("admin");
+require_role(["admin"]);
 
 $flash = null;
 
